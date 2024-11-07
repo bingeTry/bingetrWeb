@@ -211,8 +211,8 @@ h1 {
 }
 
 h2 {
-  font-size: 3.75rem;
-  font-weight: 900;
+  font-size: 2.75rem;
+  font-weight: 500;
 }
 
 p {
@@ -341,21 +341,21 @@ section {
 
 /* Header Section Styling */
 #home {
-  background: #d90647; /* Old browsers */
+  background: #075e54; /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    #d90647 37%,
-    #eb402c 98%
+    #075e54 37%,
+    #075e54 98%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    #d90647 37%,
-    #eb402c 98%
+    #075e54 37%,
+    #075e54 98%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    #d90647 37%,
-    #eb402c 98%
+    #075e54 37%,
+    #075e54 98%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90647', endColorstr='#eb402c',GradientType=0 ); /* IE6-9 */
   background-repeat: no-repeat;
@@ -375,7 +375,7 @@ nav {
 
 .logo {
   font-size: 3.125rem;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 #navbar ul li {
@@ -508,6 +508,7 @@ nav {
   max-width: 28% !important;
   float: right;
   z-index: 1;
+  margin-left: 200px;
   position: absolute;
   /* right: 9.375rem; */
 }
